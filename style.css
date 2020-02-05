@@ -89,6 +89,23 @@ a:hover {
   padding: 0;
   width: 800px;
 }
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 40%;
+  padding: 5px;
+}
+
+.cropped1 {
+    width: 95%;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid black;
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
