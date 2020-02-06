@@ -92,6 +92,7 @@ a:hover {
 
 .row {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .column {
@@ -100,7 +101,7 @@ a:hover {
 }
 
 .cropped1 {
-    width: 95%;
+    width: 350px;
     height: 200px;
     object-fit: cover;
     border: 5px solid black;
@@ -123,4 +124,10 @@ a:hover {
   .container {
     width: 300px;
   }
+  .cropped1 {
+    width: 210px;
+    height: 120px;
+    object-fit: cover;
+    border: 5px solid black;
+}
 }
