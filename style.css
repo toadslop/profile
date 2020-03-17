@@ -7,6 +7,7 @@ body {
   font-size: 16px;
   line-height: 1.4em;
   font-weight: 400;
+  padding-top: 64px;
 }
 
 h1, h2, h3 {
@@ -16,15 +17,15 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 40px;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 36px;
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: bold;
 }
 
@@ -49,6 +50,7 @@ a:hover {
 .img-circle-small {
   width: 128px;
   border-radius: 50%;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.4)
 }
 
 .btn-purple {
@@ -101,10 +103,30 @@ a:hover {
 }
 
 .cropped1 {
-    width: 350px;
-    height: 200px;
-    object-fit: cover;
-    border: 5px solid black;
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+  border: 5px solid black;
+}
+
+.cropped2 {
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.text-box {
+  background-color: #D1CAA1;
+  color: black;
+  border-radius: 4px;
+  padding: 16px;
+  border: 1px solid rgba(0,0,0,0.2);
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+.fit {
+  width: 100%;
 }
 
 @media (max-width: 960px) {
