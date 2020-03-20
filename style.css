@@ -61,7 +61,20 @@ a:hover {
   margin: 20px 20px;
 }
 
+.btn-purple-sm {
+  background-color: #32213A;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin: 20px 20px;
+}
+
 .btn-purple:hover {
+  background-color: #44354B;
+  color: white;
+}
+
+.btn-purple-sm:hover {
   background-color: #44354B;
   color: white;
 }
@@ -69,6 +82,15 @@ a:hover {
 .relative-up {
   position: relative;
   bottom: 8px;
+}
+
+#socials i {
+  font-size: 64px;
+  margin: 8px;
+}
+
+#socials h2 {
+  margin: 8px 0;
 }
 
 .inline-list {
@@ -127,6 +149,10 @@ a:hover {
 
 .fit {
   width: 100%;
+}
+
+.spacer {
+  height: 32px;
 }
 
 h1{

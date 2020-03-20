@@ -28,3 +28,4 @@ function makeCarousel(carouselID) {
 }
 
 makeCarousel('#kinzame');
+makeCarousel('#bokkun');
