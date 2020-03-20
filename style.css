@@ -67,6 +67,8 @@ a:hover {
   padding: 16px 24px;
   border-radius: 4px;
   margin: 20px 20px;
+  width: auto;
+  display: inline-block;
 }
 
 .btn-purple-sm {
@@ -294,7 +296,7 @@ div.carousel-container>div.next>.arrow-right {
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
-    width: 300px;
+    width: auto;
   }
 
   .carousel-container ul {
