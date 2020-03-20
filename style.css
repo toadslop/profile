@@ -7,7 +7,7 @@ body {
   font-size: 16px;
   line-height: 1.4em;
   font-weight: 400;
-  padding-top: 64px;
+  /*padding-top: 64px;*/
 }
 
 h1, h2, h3 {
@@ -53,6 +53,14 @@ a:hover {
   box-shadow: 1px 1px 1px rgba(0,0,0,0.4)
 }
 
+.white {
+  color: white;
+}
+
+.white:hover {
+  color: white;
+}
+
 .btn-purple {
   background-color: #32213A;
   color: white;
@@ -71,12 +79,10 @@ a:hover {
 
 .btn-purple:hover {
   background-color: #44354B;
-  color: white;
 }
 
 .btn-purple-sm:hover {
   background-color: #44354B;
-  color: white;
 }
 
 .relative-up {
@@ -155,12 +161,9 @@ a:hover {
   height: 64px;
 }
 
-/*h1{
-  text-align: center;
-  font-family: sans-serif;
-  font-weight: 400;
-  font-size: 36px;
-}*/
+#title {
+  margin-top: 0;
+}
 
 div.carousel-container {
   margin: 0 auto;
@@ -261,23 +264,56 @@ div.carousel-container>div.next>.arrow-right {
   .container {
     width: 650px;
   }
+
+  .carousel-container ul {
+    height: 400px;
+}
+
+  .carousel-container li {
+    height: 400px;
+
+}
+
+
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
     width: 500px;
   }
+
+   .carousel-container ul {
+    height: 300px;
+}
+
+  .carousel-container li {
+    height: 300px;
+}
+
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
   }
+
+  .carousel-container ul {
+    height: 150px;
+}
+
+  .carousel-container li {
+    height: 150px;
+}
+
   .cropped1 {
     width: 210px;
     height: 120px;
     object-fit: cover;
     border: 5px solid black;
-}
+  }
+
+  div.carousel-container {
+    margin-bottom: 120px;
+  }
 }
 
