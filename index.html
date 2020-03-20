@@ -17,7 +17,7 @@
     <meta name="twitter:description" content="Brian Heise is a web developer based in Tokyo specializing in developing Ruby on Rails applications.">
     <meta name="twitter:image:src" content="images/profile.jpg">
 
-    <meta charset="autf-8">
+    <meta charset="utf-8">
     <script src="https://kit.fontawesome.com/bcc235fa38.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -34,14 +34,37 @@
         <h2>Projects</h2>
         <h3>Kinzame</h3>
         <h4>Peer to peer lending platform</h4>
-        <div>
-          <a href="images/kinzame_landing.png" target="_blank">
-            <img src="images/kinzame_landing.png" class="fit" alt="sunrise">
-          </a>
+
+        <div class="carousel-container">
+          <div class="prev">
+            <div class="arrow-left"></div>
+          </div>
+          <ul class="slider">
+            <li class="visible">
+              <img src="images/kinzame-landing.png" alt="" />
+              <p>Kinzame! Peer to peer microlending.</p>
+            </li>
+            <li>
+              <img src="images/kinzame-lender.png" alt="" />
+              <p>Lender dashboard. This lender will choose to approve or reject a loan request.</p>
+            </li>
+            <li>
+              <img src="images/kinzame-search.png" alt="" />
+              <p>Search results for a ¥50000 loan.</p>
+            </li>
+            <li>
+              <img src="images/kinzame-borrower.png" alt="" />
+              <p>This borrower is waiting for approval on his loan.</p>
+            </li>
+          </ul>
+          <div class="next">
+            <div class="arrow-right"></div>
+          </div>
         </div>
-        <div>
-          <a href="https://haijisite.files.wordpress.com/2019/05/img_3585-edit.jpg?w=2000" alt="clouds"><img src="https://haijisite.files.wordpress.com/2019/05/img_3585-edit.jpg?w=2000" alt="clouds" class="cropped1"></a>
-        </div>
+
+
+
+
       </div>
 
       <div class="card-white">
@@ -65,6 +88,7 @@
         </ul>
       </div>
     </div>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
 <!-- end of file -->
