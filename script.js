@@ -29,3 +29,4 @@ function makeCarousel(carouselID) {
 
 makeCarousel('#kinzame');
 makeCarousel('#bokkun');
+makeCarousel('#react-flats');
